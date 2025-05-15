@@ -7,8 +7,7 @@
 원서의 저자가 제공하는 코드는 아래에서 확인할 수 있습니다.  
 - [loan default prediction](https://github.com/davified/loan-default-prediction)
 - [ide productivity](https://github.com/davified/ide-productivity)
-- [refactoring exercise](https://github.com/davified/refactoring-exercise)                               
-
+- [refactoring exercise](https://github.com/davified/refactoring-exercise)<br/><br/>
              
 ## 이 책에 대하여
 오늘날 데이터가 넘쳐나는 웹에서 웹 크롤러로 할 수 있는 일은 무궁무진합니다. 이 마법을 위한 준비물은 약간의 파이썬 프로그래밍 능력 하나뿐, 나머지는 이 책에 모두 담겨 있습니다. 이 책을 활용하면 웹 크롤링을 이용해 업무를 자동화하고, 복잡한 웹 콘텐츠를 처리하는 통찰력을 얻게 될 것입니다. 새롭게 3판으로 개정된 이 책은 전반적인 코드를 최신화하고 실무에서 활용할 수 있는 예제를 추가했습니다. 또한 브라우저 자동화를 위한 셀레니움, 정확한 데이터 추출을 위한 XPath도 함께 다룹니다. 복잡한 웹 세상에서 효율적으로 데이터를 수집하고 싶은, ‘일상의 데이터 분석가’를 꿈꾸는 모두에게 이 책은 가장 정확한 나침반이 되어 줄 것입니다.
