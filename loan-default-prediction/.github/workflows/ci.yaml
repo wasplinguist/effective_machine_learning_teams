@@ -1,0 +1,35 @@
+name: CI pipeline
+on: [push]
+jobs:
+  run-tests:
+    runs-on: ubuntu-20.04
+    env:
+      BATECT_CACHE_TYPE: directory
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cache dependencies
+        uses: actions/cache@v3.2.3
+        with:
+          path: .batect/caches
+          key: batect-caches-${{ hashFiles('poetry.lock') }}
+      - name: Run model training smoke test
+        run: ./batect --output=all smoke-test-model-training
+      - name: Run API tests
+        run: ./batect --output=all api-test
+
+  train-model:
+    runs-on: ubuntu-20.04
+    env:
+      BATECT_CACHE_TYPE: directory
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cache dependencies
+        uses: actions/cache@v3.2.3
+        with:
+          path: .batect/caches
+          key: batect-caches-${{ hashFiles('poetry.lock') }}
+      - name: Train model
+        run: ./batect --output=all train-model
+      - name: Run model metrics tests
+        run: ./batect --output=all model-metrics-test
+    needs: run-tests

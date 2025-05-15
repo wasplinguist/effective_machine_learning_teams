@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "loan-default-prediction"
+version = "0.1.0"
+description = "An end-to-end example of how to apply software engineering practices for ML training, testing and deployment"
+authors = ["David Tan <davidtan@thoughtworks.com>"]
+packages = [{include = "training", from = "src"}]
+
+[tool.poetry.dependencies]
+pandas = "2.2.3"
+scikit-learn = "1.6.1"
+fastapi = "0.115.12"
+pydantic = "2.11.4"
+uvicorn = "0.34.2"
+python = "^3.9"
+httpx = "^0.28.1"
+
+[tool.poetry.dev-dependencies]
+jupyter = "1.1.1"
+black = "25.1.0"
+pylint = "^3.3.7"
+precisely = "^0.1.9"
+pytest = "^8.3.5"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
