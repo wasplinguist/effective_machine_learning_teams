@@ -7,7 +7,7 @@
 원서의 저자가 제공하는 코드는 아래에서 확인할 수 있습니다.  
 - [loan default prediction](https://github.com/davified/loan-default-prediction)
 - [ide productivity](https://github.com/davified/ide-productivity)
-- [refactoring exercise](https://github.com/davified/refactoring-exercise)
+- [refactoring exercise](https://github.com/davified/refactoring-exercise)                               
 
              
 ## 이 책에 대하여
