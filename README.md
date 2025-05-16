@@ -10,7 +10,7 @@
 - [loan default prediction](https://github.com/davified/loan-default-prediction)
 - [ide productivity](https://github.com/davified/ide-productivity)
 - [refactoring exercise](https://github.com/davified/refactoring-exercise)<br/><br/><br/><br/>
-             
+             <br/>
 ## 이 책에 대하여
 ML 모델을 훈련시키는 기술은 이미 많은 조직에 보편화되었지만, 이를 실제 고객에게 가치를 전달하는 제품으로 연결하는 일은 여전히 쉽지 않습니다. 모델이 배포되지 못한 채 PoC 단계에 머물고, 수개월의 개발 끝
 에도 성능 저하, 기술 부채, 팀 간 충돌로 프로젝트 자체가 좌초되기도 합니다.
@@ -23,24 +23,24 @@ CI/CD부터 자동 테스트, 컨테이너 환경 구성, 팀 내 협업 구조�
 - 자동 테스트, 컨테이너 환경 구성, 리팩터링 기법
 - ML 팀을 위한 조직 구조와 협업 전략
 - 실제 현장에서 검증된 사례 기반의 업무 노하우
-
+<br/>
 
 ## 목차
 
-CHAPTER 01 ML 솔루션 제공의 도전과 더 나은 방향
-
-PART 01 제품과 전달
-CHAPTER 02 ML 팀을 위한 제품과 전달 기법
-
-PART 02 엔지니어링
-CHAPTER 03 효과적인 의존성 관리: 원칙과 도구
-CHAPTER 04 실무에서의 효과적인 의존성 관리
-CHAPTER 05 자동 테스트: 신속하게 진행하되 문제는 피하기
-CHAPTER 06 자동 테스트: ML 모델 테스트
-CHAPTER 07 간단한 기술로 코드 편집기를 효과적으로 사용하기
-CHAPTER 08 리팩터링과 기술 부채 관리
-CHAPTER 09 MLOps와 ML을 위한 지속적 전달(CD4ML)
-
-PART 03 팀
-CHAPTER 10 효율적인 ML 팀의 구성 요소
-CHAPTER 11 효과적인 ML 조직
+CHAPTER 01 ML 솔루션 제공의 도전과 더 나은 방향<br/>
+<br/>
+PART 01 제품과 전달<br/>
+CHAPTER 02 ML 팀을 위한 제품과 전달 기법<br/>
+<br/>
+PART 02 엔지니어링<br/>
+CHAPTER 03 효과적인 의존성 관리: 원칙과 도구<br/>
+CHAPTER 04 실무에서의 효과적인 의존성 관리<br/>
+CHAPTER 05 자동 테스트: 신속하게 진행하되 문제는 피하기<br/>
+CHAPTER 06 자동 테스트: ML 모델 테스트<br/>
+CHAPTER 07 간단한 기술로 코드 편집기를 효과적으로 사용하기<br/>
+CHAPTER 08 리팩터링과 기술 부채 관리<br/>
+CHAPTER 09 MLOps와 ML을 위한 지속적 전달(CD4ML)<br/>
+<br/>
+PART 03 팀<br/>
+CHAPTER 10 효율적인 ML 팀의 구성 요소<br/>
+CHAPTER 11 효과적인 ML 조직<br/>
