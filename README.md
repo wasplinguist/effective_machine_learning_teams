@@ -1,6 +1,6 @@
 # Effective Machine Learning Teams(초판)
 
-<img src="https://learning.oreilly.com/library/cover/9781098144623/250w" height="256px" align="right">
+<img src="./assets/image1.PNG" height="256px" align="right">
 
 『[이펙티브 머신러닝 팀]』(한빛미디어, 2025) 예제 코드 저장소입니다.  
 
