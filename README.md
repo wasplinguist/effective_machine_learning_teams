@@ -1,8 +1,6 @@
-# Effective Machine Learning Teams(초판)
+# 잘되는 머신러닝 팀엔 이유가 있다
 
 <img src="./assets/image1.png" height="256px" align="right">
-
-책 제목: 잘되는 머신러닝 팀엔 이유가 있다
 
 『[잘되는 머신러닝 팀엔 이유가 있다]』(한빛미디어, 2025) 예제 코드 저장소입니다.
 
